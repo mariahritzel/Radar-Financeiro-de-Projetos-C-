@@ -106,3 +106,4 @@ C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\ref
 C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\backend.sourcelink.json
