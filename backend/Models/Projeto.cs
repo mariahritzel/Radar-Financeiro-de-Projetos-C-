@@ -12,10 +12,10 @@ public class Projeto
 
     public DateTime DataFim { get; set; }
 
-    public string ProgramaUniversidade { get; set; }
+    public string Programa { get; set; }
 
     // Relacionamento com Pesquisador
     public int PesquisadorId { get; set; }
 
-    public Pesquisador Pesquisador { get; set; }
+    public Pesquisador? Pesquisador { get; set; }
 }

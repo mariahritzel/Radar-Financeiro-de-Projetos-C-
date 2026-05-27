@@ -11,4 +11,6 @@ public class Pesquisador
     public string Curso { get; set; }
 
     public string Departamento { get; set; }
+
+    public List<Projeto> Projetos { get; set; }
 }
