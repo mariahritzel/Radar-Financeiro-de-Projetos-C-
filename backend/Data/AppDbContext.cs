@@ -17,4 +17,6 @@ public class AppDbContext : DbContext
     public DbSet<Receita> Receitas { get; set; }
 
     public DbSet<Despesa> Despesas { get; set; }
+
+    public DbSet<Usuario> Usuarios { get; set; }
 }

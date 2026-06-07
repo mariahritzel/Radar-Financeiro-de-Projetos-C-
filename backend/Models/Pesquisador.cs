@@ -8,9 +8,13 @@ public class Pesquisador
 
     public string Email { get; set; }
 
+    public string Senha { get; set; }
+
     public string Curso { get; set; }
 
     public string Departamento { get; set; }
 
     public List<Projeto> Projetos { get; set; }
+
+    public Usuario? Usuario { get; set; }
 }

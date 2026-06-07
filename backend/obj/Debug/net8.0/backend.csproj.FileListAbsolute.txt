@@ -107,3 +107,11 @@ C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\bac
 C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\ref\backend.dll
 C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\obj\Debug\net8.0\backend.sourcelink.json
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Pessoal\Desktop\Eduardo\UNISC\ADS\PI_III_B\backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

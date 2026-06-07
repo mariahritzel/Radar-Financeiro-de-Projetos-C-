@@ -82,6 +82,10 @@ namespace backend.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.HasKey("Id");
 
                     b.ToTable("Pesquisadores");
@@ -155,6 +159,33 @@ namespace backend.Migrations
                     b.ToTable("Receitas");
                 });
 
+            modelBuilder.Entity("backend.Models.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("PesquisadorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PesquisadorId")
+                        .IsUnique();
+
+                    b.ToTable("Usuarios");
+                });
+
             modelBuilder.Entity("backend.Models.Despesa", b =>
                 {
                     b.HasOne("backend.Models.Projeto", "Projeto")
@@ -188,9 +219,22 @@ namespace backend.Migrations
                     b.Navigation("Projeto");
                 });
 
+            modelBuilder.Entity("backend.Models.Usuario", b =>
+                {
+                    b.HasOne("backend.Models.Pesquisador", "Pesquisador")
+                        .WithOne("Usuario")
+                        .HasForeignKey("backend.Models.Usuario", "PesquisadorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pesquisador");
+                });
+
             modelBuilder.Entity("backend.Models.Pesquisador", b =>
                 {
                     b.Navigation("Projetos");
+
+                    b.Navigation("Usuario");
                 });
 #pragma warning restore 612, 618
         }

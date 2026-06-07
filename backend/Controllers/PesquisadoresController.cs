@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using backend.Data;
 using backend.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace backend.Controllers;
 
@@ -15,6 +16,7 @@ public class PesquisadoresController : ControllerBase
         _context = context;
     }
 
+    [Authorize]
     [HttpGet]
     public IActionResult Get()
     {
@@ -78,4 +80,5 @@ public class PesquisadoresController : ControllerBase
 
         return Ok(projetos);
     }
+
 }
