@@ -10,14 +10,11 @@ public class Despesa
 
     public string NomeDespesa { get; set; }
 
-    public decimal ValorUnitario { get; set; }
+    public decimal ValorOrcado { get; set; }
 
-    public int Quantidade { get; set; }
+    public decimal ValorRealizado { get; set; }
 
-    public decimal ValorTotal { get; set; }
-
-    // Relacionamento com Projeto
     public int ProjetoId { get; set; }
 
-    public Projeto Projeto { get; set; }
+    public Projeto? Projeto { get; set; }
 }

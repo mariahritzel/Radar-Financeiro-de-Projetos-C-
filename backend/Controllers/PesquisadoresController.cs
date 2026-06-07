@@ -69,4 +69,13 @@ public class PesquisadoresController : ControllerBase
 
         return NoContent();
     }
+    [HttpGet("{id}/projetos")]
+    public IActionResult GetProjetos(int id)
+    {
+        var projetos = _context.Projetos
+            .Where(p => p.PesquisadorId == id)
+            .ToList();
+
+        return Ok(projetos);
+    }
 }

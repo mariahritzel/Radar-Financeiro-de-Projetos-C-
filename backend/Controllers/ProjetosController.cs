@@ -74,4 +74,38 @@ public class ProjetosController : ControllerBase
 
 		return NoContent();
 	}
+    [HttpGet("{id}/dashboard")]
+    public IActionResult Dashboard(int id)
+    {
+        var projeto = _context.Projetos.Find(id);
+
+        if (projeto == null)
+            return NotFound();
+
+        var receitaTotal = _context.Receitas
+            .Where(r => r.ProjetoId == id)
+            .Sum(r => r.Valor);
+
+        var despesaOrcada = _context.Despesas
+            .Where(d => d.ProjetoId == id)
+            .Sum(d => d.ValorOrcado);
+
+        var despesaRealizada = _context.Despesas
+            .Where(d => d.ProjetoId == id)
+            .Sum(d => d.ValorRealizado);
+
+        var valorDisponivel = receitaTotal - despesaRealizada;
+
+        var economia = despesaOrcada - despesaRealizada;
+
+        return Ok(new
+        {
+            projeto = projeto.Nome,
+            receitaTotal,
+            despesaOrcada,
+            despesaRealizada,
+            valorDisponivel,
+            economia
+        });
+    }
 }

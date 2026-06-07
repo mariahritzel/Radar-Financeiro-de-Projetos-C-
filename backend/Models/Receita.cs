@@ -15,5 +15,5 @@ public class Receita
 	// Relacionamento com Projeto
 	public int ProjetoId { get; set; }
 
-	public Projeto Projeto { get; set; }
+	public Projeto? Projeto { get; set; }
 }
