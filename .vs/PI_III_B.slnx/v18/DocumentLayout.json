@@ -3,84 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\main.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\main.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\App.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\App.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\AppRoutes.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\AppRoutes.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DespesasController.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\DespesasController.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\ReceitasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\ReceitasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\ProjetosController.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\ProjetosController.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\PesquisadoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\PesquisadoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\AuthControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\AuthControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\LoginModels.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\LoginModels.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Pesquisador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\Pesquisador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\pages\\Dashboard.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\Dashboard.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\Despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\ProtectedRoute.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\ProtectedRoute.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\Receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DespesasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\DespesasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Projeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\Projeto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\styles\\dashboard.css||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\styles\\dashboard.css||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\App.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\App.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\pages\\Login.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\pages\\Login.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\context\\AuthContext.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\context\\AuthContext.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\main.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\main.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\AuthControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\AuthControllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\AppRoutes.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\src\\routes\\AppRoutes.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\ReceitasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Controllers\\ReceitasController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Pesquisador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\Models\\Pesquisador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,43 +70,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DespesasController.cs",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DespesasController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\DespesasController.cs",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DespesasController.cs",
+              "RelativeToolTip": "backend\\Controllers\\DespesasController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T14:58:27.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "backend\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T14:58:12.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\styles\\dashboard.css",
+              "RelativeDocumentMoniker": "frontend\\src\\styles\\dashboard.css",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\styles\\dashboard.css",
+              "RelativeToolTip": "frontend\\src\\styles\\dashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-10T14:53:08.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\pages\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\Dashboard.jsx",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\pages\\Dashboard.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\Dashboard.jsx",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-10T14:41:47.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProtectedRoute.jsx",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\ProtectedRoute.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\routes\\ProtectedRoute.jsx",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\ProtectedRoute.jsx",
+              "RelativeToolTip": "frontend\\src\\routes\\ProtectedRoute.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-10T14:38:25.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T14:10:14.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\pages\\Login.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\pages\\Login.jsx",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\pages\\Login.jsx",
+              "RelativeToolTip": "frontend\\src\\pages\\Login.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-10T13:24:48.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthContext.jsx",
+              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\context\\AuthContext.jsx",
+              "RelativeDocumentMoniker": "frontend\\src\\context\\AuthContext.jsx",
+              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\context\\AuthContext.jsx",
+              "RelativeToolTip": "frontend\\src\\context\\AuthContext.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-10T13:21:19.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "main.jsx",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\main.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\main.jsx",
               "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\main.jsx",
               "RelativeToolTip": "frontend\\src\\main.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-06-07T19:54:37.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "AppRoutes.jsx",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\AppRoutes.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\routes\\AppRoutes.jsx",
               "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\routes\\AppRoutes.jsx",
               "RelativeToolTip": "frontend\\src\\routes\\AppRoutes.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-06-07T19:53:15.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\App.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
               "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\frontend\\src\\App.jsx",
               "RelativeToolTip": "frontend\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-06-07T19:49:37.622Z",
               "EditorCaption": ""
@@ -134,32 +218,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginModels.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\LoginModels.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\LoginModels.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\LoginModels.cs",
-              "RelativeToolTip": "backend\\Models\\LoginModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T18:30:21.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "AuthControllers.cs",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\AuthControllers.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\AuthControllers.cs",
               "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\AuthControllers.cs",
               "RelativeToolTip": "backend\\Controllers\\AuthControllers.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T18:30:02.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Pesquisador.cs",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Pesquisador.cs",
               "RelativeDocumentMoniker": "backend\\Models\\Pesquisador.cs",
@@ -172,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\appsettings.json",
               "RelativeDocumentMoniker": "backend\\appsettings.json",
@@ -185,20 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjetosController.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\ProjetosController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\ProjetosController.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\ProjetosController.cs",
-              "RelativeToolTip": "backend\\Controllers\\ProjetosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T22:53:37.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "ReceitasController.cs",
               "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\ReceitasController.cs",
               "RelativeDocumentMoniker": "backend\\Controllers\\ReceitasController.cs",
@@ -207,149 +265,6 @@
               "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T14:13:16.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DespesasController.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DespesasController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\DespesasController.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DespesasController.cs",
-              "RelativeToolTip": "backend\\Controllers\\DespesasController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T14:14:19.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PesquisadoresController.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\PesquisadoresController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\PesquisadoresController.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\PesquisadoresController.cs",
-              "RelativeToolTip": "backend\\Controllers\\PesquisadoresController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T23:05:42.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "backend.csproj",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\backend.csproj",
-              "RelativeDocumentMoniker": "backend\\backend.csproj",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\backend.csproj",
-              "RelativeToolTip": "backend\\backend.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-26T22:56:25.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "backend\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "backend\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T22:17:51.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Usuario.cs",
-              "RelativeToolTip": "backend\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T18:10:50.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "backend\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "backend\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T18:01:38.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Program.cs",
-              "RelativeDocumentMoniker": "backend\\Program.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Program.cs",
-              "RelativeToolTip": "backend\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T22:52:12.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Despesa.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Despesa.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Despesa.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Despesa.cs",
-              "RelativeToolTip": "backend\\Models\\Despesa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T14:10:04.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Receita.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Receita.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Receita.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Receita.cs",
-              "RelativeToolTip": "backend\\Models\\Receita.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T14:10:09.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Projeto.cs",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Projeto.cs",
-              "RelativeDocumentMoniker": "backend\\Models\\Projeto.cs",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\Models\\Projeto.cs",
-              "RelativeToolTip": "backend\\Models\\Projeto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T22:45:57.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-26T23:32:04.662Z",
               "EditorCaption": ""
             }
           ]

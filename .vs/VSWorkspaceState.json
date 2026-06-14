@@ -2,10 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\backend",
-    "\\backend\\Controllers",
-    "\\backend\\Data",
-    "\\backend\\Models"
+    "\\backend\\Models",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\context",
+    "\\frontend\\src\\pages",
+    "\\frontend\\src\\routes",
+    "\\frontend\\src\\styles"
   ],
-  "SelectedNode": "\\backend\\Models\\Projeto.cs",
+  "SelectedNode": "\\backend\\Controllers\\DashboardController.cs",
   "PreviewInSolutionExplorer": false
 }

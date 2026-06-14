@@ -26,12 +26,12 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public IActionResult Login(LoginModel login)
     {
-        var pesquisador = _context.Pesquisadores.FirstOrDefault(
-            p => p.Email == login.Email &&
-                 p.Senha == login.Senha
-        );
+        var pesquisador = _context.Pesquisadores
+            .FirstOrDefault(p =>
+                p.Email.Trim().ToLower() == login.Email.Trim().ToLower()
+            );
 
-        if (pesquisador == null)
+        if (pesquisador == null || pesquisador.Senha != login.Senha)
             return Unauthorized("Usuário ou senha inválidos");
 
         var claims = new[]
