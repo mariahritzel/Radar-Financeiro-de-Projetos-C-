@@ -11,20 +11,20 @@ namespace backend.Controllers;
 [Route("api/[controller]")]
 public class ProjetosController : ControllerBase
 {
-	private readonly AppDbContext _context;
+    private readonly AppDbContext _context;
 
-	public ProjetosController(AppDbContext context)
-	{
-		_context = context;
-	}
+    public ProjetosController(AppDbContext context)
+    {
+        _context = context;
+    }
 
     [Authorize]
     [HttpGet]
-	public IActionResult Get()
-	{
+    public IActionResult Get()
+    {
         var userId = int.Parse(
-			User.FindFirst(ClaimTypes.NameIdentifier)?.Value
-		);
+            User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+        );
 
         var projetos = _context.Projetos
             .Where(p => p.PesquisadorId == userId)
@@ -32,7 +32,7 @@ public class ProjetosController : ControllerBase
 
 
         return Ok(projetos);
-	}
+    }
 
     [Authorize]
     [HttpPost]
@@ -118,12 +118,12 @@ public class ProjetosController : ControllerBase
 
         return Ok(new
         {
-            projeto = projeto.Nome,
-            receitaTotal,
-            despesaOrcada,
-            despesaRealizada,
+            totalReceitas = receitaTotal,
+            totalDespesas = despesaRealizada,
             valorDisponivel,
-            economia
+            economia,
+            despesaOrcada,
+            projeto = projeto.Nome
         });
     }
 }
