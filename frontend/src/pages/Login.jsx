@@ -52,6 +52,12 @@ export default function Login() {
 
         {erro && <p style={{ color: "red" }}>{erro}</p>}
       </form>
+          <p>
+              Não possui conta?{" "}
+              <a href="/cadastro">
+                  Cadastre-se
+              </a>
+          </p>
     </div>
   );
 }

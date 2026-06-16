@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net8.0": {
       "Humanizer.Core/2.14.1": {
@@ -3084,19 +3084,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pessoal\\.nuget\\packages\\": {}
+    "C:\\Users\\Maria\\.nuget\\packages\\": {},
+    "E:\\Visual\\componentes\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\backend.csproj",
+      "projectUniqueName": "E:\\CloneGit\\RadarFinanceiroDeProjetos\\backend\\backend.csproj",
       "projectName": "backend",
-      "projectPath": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\backend.csproj",
-      "packagesPath": "C:\\Users\\Pessoal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pessoal\\Desktop\\Eduardo\\UNISC\\ADS\\PI_III_B\\backend\\obj\\",
+      "projectPath": "E:\\CloneGit\\RadarFinanceiroDeProjetos\\backend\\backend.csproj",
+      "packagesPath": "C:\\Users\\Maria\\.nuget\\packages\\",
+      "outputPath": "E:\\CloneGit\\RadarFinanceiroDeProjetos\\backend\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Visual\\componentes\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Pessoal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3108,7 +3113,6 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -3123,11 +3127,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
@@ -3168,6 +3171,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.26, 8.0.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3176,7 +3197,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
