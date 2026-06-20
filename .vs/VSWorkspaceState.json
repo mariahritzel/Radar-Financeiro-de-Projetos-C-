@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend"
+    "\\backend\\Controllers",
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\context",
+    "\\frontend\\src\\pages"
   ],
-  "SelectedNode": "\\backend\\backend.csproj",
+  "SelectedNode": "\\frontend\\src\\pages\\Login.jsx",
   "PreviewInSolutionExplorer": false
 }

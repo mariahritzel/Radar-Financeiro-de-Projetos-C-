@@ -20,7 +20,7 @@ export default function Login() {
         { email, senha }
       );
 
-      login(response.data.token); // 🔥 AQUI estava o erro
+      login(response.data.token); 
       navigate("/dashboard");
 
     } catch (err) {
