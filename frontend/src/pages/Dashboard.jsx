@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./../styles/dashboard.css";
+import { useAuth } from "../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 export default function Dashboard() {
   const [dados, setDados] = useState(null);
@@ -19,14 +21,23 @@ export default function Dashboard() {
   valorOrcado: "",
   valorRealizado: ""
 });
+   const [novoProjeto, setNovoProjeto] = useState({
+   nome: "",
+   descricao: "",
+   programa: "",
+   dataInicio: "",
+   dataFim: ""
+});
+    const { logout } = useAuth();
+    const navigate = useNavigate();
 
 async function carregarDados() {
   try {
     const token = localStorage.getItem("token");
 
-    const dashboardUrl = projetoSelecionado
-      ? `http://localhost:5279/api/Projetos/${projetoSelecionado}/dashboard`
-      : `http://localhost:5279/api/Dashboard/pesquisador/1`;
+      const dashboardUrl = projetoSelecionado
+          ? `http://localhost:5279/api/Projetos/${projetoSelecionado}/dashboard`
+          : `http://localhost:5279/api/Dashboard/me`;
 
     const dashboardResponse = await axios.get(dashboardUrl, {
       headers: {
@@ -37,7 +48,7 @@ async function carregarDados() {
     setDados(dashboardResponse.data);
 
     const projetosResponse = await axios.get(
-      "http://localhost:5279/api/Pesquisadores/1/projetos",
+      "http://localhost:5279/api/Pesquisadores/me/projetos",
       {
         headers: {
           Authorization: `Bearer ${token}`
@@ -199,10 +210,126 @@ async function adicionarDespesa() {
   }
 }
 
+    async function adicionarProjeto() {
+        try {
+            const token = localStorage.getItem("token");
+
+            await axios.post(
+                "http://localhost:5279/api/Projetos",
+                {
+                    nome: novoProjeto.nome,
+                    descricao: novoProjeto.descricao,
+                    programa: novoProjeto.programa,
+                    dataInicio: novoProjeto.dataInicio,
+                    dataFim: novoProjeto.dataFim
+                },
+                {
+                    headers: {
+                        Authorization: `Bearer ${token}`
+                    }
+                }
+            );
+
+            setNovoProjeto({
+                nome: "",
+                descricao: "",
+                programa: "",
+                dataInicio: "",
+                dataFim: ""
+            });
+
+            await carregarDados();
+
+        } catch (err) {
+            console.log("Erro ao criar projeto", err);
+        }
+    }
+
+    function fazerLogout() {
+        logout();
+        navigate("/");
+    }
+
 return (
   <>
     <div className="dashboard">
-      <h1>Dashboard</h1>
+            <div className="header">
+                <div>
+                    <h1>Radar Financeiro</h1>
+                    <p>Gerenciamento de projetos de pesquisa</p>
+                </div>
+
+                <button
+                    className="logout-btn"
+                    onClick={logout}
+                >
+                    Sair
+                </button>
+            </div>
+   
+            <div className="card">
+            <h2>Novo Projeto</h2>
+
+            <input
+                placeholder="Nome"
+                value={novoProjeto.nome}
+                onChange={(e) =>
+                    setNovoProjeto({
+                        ...novoProjeto,
+                        nome: e.target.value
+                    })
+                }
+            />
+
+            <input
+                placeholder="Descrição"
+                value={novoProjeto.descricao}
+                onChange={(e) =>
+                    setNovoProjeto({
+                        ...novoProjeto,
+                        descricao: e.target.value
+                    })
+                }
+            />
+
+            <input
+                placeholder="Programa"
+                value={novoProjeto.programa}
+                onChange={(e) =>
+                    setNovoProjeto({
+                        ...novoProjeto,
+                        programa: e.target.value
+                    })
+                }
+            />
+
+            <input
+                type="date"
+                value={novoProjeto.dataInicio}
+                onChange={(e) =>
+                    setNovoProjeto({
+                        ...novoProjeto,
+                        dataInicio: e.target.value
+                    })
+                }
+            />
+
+            <input
+                type="date"
+                value={novoProjeto.dataFim}
+                onChange={(e) =>
+                    setNovoProjeto({
+                        ...novoProjeto,
+                        dataFim: e.target.value
+                    })
+                }
+            />
+
+            <button onClick={adicionarProjeto}>
+                Criar Projeto
+            </button>
+            </div>
+            <hr />
 
       <select
         onChange={(e) =>
@@ -246,162 +373,166 @@ return (
 
     <hr />
 
-    <h2>Receitas</h2>
+        <h2>Receitas</h2>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Origem</th>
-          <th>Tipo</th>
-          <th>Valor</th>
-          <th>Ações</th>
-        </tr>
-      </thead>
+        <table>
+            <thead>
+                <tr>
+                    <th>Origem</th>
+                    <th>Tipo</th>
+                    <th>Valor</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
 
-      <tbody>
-        {receitas.map((r) => (
-          <tr key={r.id}>
-            <td>{r.origem}</td>
-            <td>{r.tipo}</td>
-            <td>{r.valor}</td>
-            <td>
-            <button
-              onClick={() => excluirReceita(r.id)}
-            >
-              Excluir
-            </button>
-          </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+            <tbody>
+                {receitas.map((r) => (
+                    <tr key={r.id}>
+                        <td>{r.origem}</td>
+                        <td>{r.tipo}</td>
+                        <td>{r.valor}</td>
+                        <td>
+                            <button onClick={() => excluirReceita(r.id)}>
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
 
-    <h3>Nova Receita</h3>
+        <h2>Despesas</h2>
 
-        <input
-          placeholder="Origem"
-          value={novaReceita.origem}
-          onChange={(e) =>
-            setNovaReceita({
-              ...novaReceita,
-              origem: e.target.value
-            })
-          }
-        />
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Orçado</th>
+                    <th>Realizado</th>
+                    <th>Economia</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
 
-        <input
-          placeholder="Tipo"
-          value={novaReceita.tipo}
-          onChange={(e) =>
-            setNovaReceita({
-              ...novaReceita,
-              tipo: e.target.value
-            })
-          }
-        />
+            <tbody>
+                {despesas.map((d) => (
+                    <tr key={d.id}>
+                        <td>{d.nomeDespesa}</td>
+                        <td>{d.categoria}</td>
+                        <td>{d.valorOrcado}</td>
+                        <td>{d.valorRealizado}</td>
+                        <td>
+                            {Number(d.valorOrcado) - Number(d.valorRealizado)}
+                        </td>
+                        <td>
+                            <button onClick={() => excluirDespesa(d.id)}>
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
 
-        <input
-          type="number"
-          placeholder="Valor"
-          value={novaReceita.valor}
-          onChange={(e) =>
-            setNovaReceita({
-              ...novaReceita,
-              valor: e.target.value
-            })
-          }
-        />
+        <div className="forms-container">
 
-        <button onClick={adicionarReceita}>
-          Adicionar Receita
-        </button>
+            <div className="form-card">
+                <h3>Nova Receita</h3>
 
-    <h2>Despesas</h2>
+                <input
+                    placeholder="Origem"
+                    value={novaReceita.origem}
+                    onChange={(e) =>
+                        setNovaReceita({
+                            ...novaReceita,
+                            origem: e.target.value
+                        })
+                    }
+                />
 
-    <table>
-      <thead>
-        <tr>
-          <th>Nome</th>
-          <th>Categoria</th>
-          <th>Orçado</th>
-          <th>Realizado</th>
-          <th>Economia</th>
-          <th>Ações</th>
-        </tr>
-      </thead>
+                <input
+                    placeholder="Tipo"
+                    value={novaReceita.tipo}
+                    onChange={(e) =>
+                        setNovaReceita({
+                            ...novaReceita,
+                            tipo: e.target.value
+                        })
+                    }
+                />
 
-      <tbody>
-        {despesas.map((d) => (
-          <tr key={d.id}>
-            <td>{d.nomeDespesa}</td>
-            <td>{d.categoria}</td>
-            <td>{d.valorOrcado}</td>
-            <td>{d.valorRealizado}</td>
-            <td>
-              {(Number(d.valorOrcado) - Number(d.valorRealizado))}
-            </td>
-            <td>
-                <button
-                  onClick={() => excluirDespesa(d.id)}
-                >
-                  Excluir
+                <input
+                    type="number"
+                    placeholder="Valor"
+                    value={novaReceita.valor}
+                    onChange={(e) =>
+                        setNovaReceita({
+                            ...novaReceita,
+                            valor: e.target.value
+                        })
+                    }
+                />
+
+                <button onClick={adicionarReceita}>
+                    Adicionar Receita
                 </button>
-          </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+            </div>
 
-      <h3>Nova Despesa</h3>
+            <div className="form-card">
+                <h3>Nova Despesa</h3>
 
-        <input
-          placeholder="Nome"
-          value={novaDespesa.nomeDespesa}
-          onChange={(e) =>
-            setNovaDespesa({
-              ...novaDespesa,
-              nomeDespesa: e.target.value
-            })
-          }
-        />
+                <input
+                    placeholder="Nome"
+                    value={novaDespesa.nomeDespesa}
+                    onChange={(e) =>
+                        setNovaDespesa({
+                            ...novaDespesa,
+                            nomeDespesa: e.target.value
+                        })
+                    }
+                />
 
-        <input
-          placeholder="Categoria"
-          value={novaDespesa.categoria}
-          onChange={(e) =>
-            setNovaDespesa({
-              ...novaDespesa,
-              categoria: e.target.value
-            })
-          }
-        />
+                <input
+                    placeholder="Categoria"
+                    value={novaDespesa.categoria}
+                    onChange={(e) =>
+                        setNovaDespesa({
+                            ...novaDespesa,
+                            categoria: e.target.value
+                        })
+                    }
+                />
 
-        <input
-          type="number"
-          placeholder="Valor Orçado"
-          value={novaDespesa.valorOrcado}
-          onChange={(e) =>
-            setNovaDespesa({
-              ...novaDespesa,
-              valorOrcado: e.target.value
-            })
-          }
-        />
+                <input
+                    type="number"
+                    placeholder="Valor Orçado"
+                    value={novaDespesa.valorOrcado}
+                    onChange={(e) =>
+                        setNovaDespesa({
+                            ...novaDespesa,
+                            valorOrcado: e.target.value
+                        })
+                    }
+                />
 
-        <input
-          type="number"
-          placeholder="Valor Realizado"
-          value={novaDespesa.valorRealizado}
-          onChange={(e) =>
-            setNovaDespesa({
-              ...novaDespesa,
-              valorRealizado: e.target.value
-            })
-          }
-        />
+                <input
+                    type="number"
+                    placeholder="Valor Realizado"
+                    value={novaDespesa.valorRealizado}
+                    onChange={(e) =>
+                        setNovaDespesa({
+                            ...novaDespesa,
+                            valorRealizado: e.target.value
+                        })
+                    }
+                />
 
-        <button onClick={adicionarDespesa}>
-          Adicionar Despesa
-        </button>
+                <button onClick={adicionarDespesa}>
+                    Adicionar Despesa
+                </button>
+            </div>
+
+        </div>
         </>
 );}

@@ -14,7 +14,7 @@ public class Pesquisador
 
     public string Departamento { get; set; }
 
-    public List<Projeto> Projetos { get; set; }
+    public List<Projeto> Projetos { get; set; } = new();
 
     public Usuario? Usuario { get; set; }
 }

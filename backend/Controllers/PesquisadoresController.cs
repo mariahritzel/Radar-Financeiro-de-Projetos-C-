@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using backend.Data;
 using backend.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace backend.Controllers;
 
@@ -71,6 +72,7 @@ public class PesquisadoresController : ControllerBase
 
         return NoContent();
     }
+
     [HttpGet("{id}/projetos")]
     public IActionResult GetProjetos(int id)
     {
@@ -81,4 +83,18 @@ public class PesquisadoresController : ControllerBase
         return Ok(projetos);
     }
 
+    [Authorize]
+    [HttpGet("me/projetos")]
+    public IActionResult GetMeusProjetos()
+    {
+        var userId = int.Parse(
+            User.FindFirst(ClaimTypes.NameIdentifier)!.Value
+        );
+
+        var projetos = _context.Projetos
+            .Where(p => p.PesquisadorId == userId)
+            .ToList();
+
+        return Ok(projetos);
+    }
 }
