@@ -93,6 +93,10 @@ export default function Cadastro() {
 
             {erro && <p style={{ color: "red" }}>{erro}</p>}
             {sucesso && <p style={{ color: "green" }}>{sucesso}</p>}
+            Já possui conta?{" "}
+            <a href="/">
+                Fazer login
+            </a>
         </div>
     );
 }

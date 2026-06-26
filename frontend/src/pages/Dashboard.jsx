@@ -260,6 +260,12 @@ return (
                 </div>
 
                 <button
+                    onClick={() => navigate("/graficos")}
+                >
+                    Indicadores
+                </button>
+
+                <button
                     className="logout-btn"
                     onClick={logout}
                 >
