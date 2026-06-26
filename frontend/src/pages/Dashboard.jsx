@@ -260,6 +260,7 @@ return (
                 </div>
 
                 <button
+                    className="indicadores-btn"
                     onClick={() => navigate("/graficos")}
                 >
                     Indicadores
