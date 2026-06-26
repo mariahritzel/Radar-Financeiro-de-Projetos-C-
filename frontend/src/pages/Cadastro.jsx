@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import "./../styles/cadastro.css";
+import logo from "../assets/logo.png";
 
 export default function Cadastro() {
     const navigate = useNavigate();
@@ -44,59 +46,85 @@ export default function Cadastro() {
     };
 
     return (
-        <div style={{ maxWidth: 400, margin: "100px auto" }}>
-            <h2>Cadastro</h2>
+        <div className="cadastro-container">
 
-            <form onSubmit={handleSubmit}>
+            <div className="cadastro-card">
 
-                <input
-                    name="nome"
-                    placeholder="Nome"
-                    onChange={handleChange}
-                    style={{ display: "block", marginBottom: 10, width: "100%" }}
+                <img
+                    src={logo}
+                    alt="Logo"
+                    className="cadastro-logo"
                 />
 
-                <input
-                    name="email"
-                    placeholder="Email"
-                    onChange={handleChange}
-                    style={{ display: "block", marginBottom: 10, width: "100%" }}
-                />
+                <h2>Cadastro</h2>
 
-                <input
-                    name="curso"
-                    placeholder="Curso"
-                    onChange={handleChange}
-                    style={{ display: "block", marginBottom: 10, width: "100%" }}
-                />
+                <p>Crie sua conta para acessar o sistema</p>
 
-                <input
-                    name="departamento"
-                    placeholder="Departamento"
-                    onChange={handleChange}
-                    style={{ display: "block", marginBottom: 10, width: "100%" }}
-                />
+                <form onSubmit={handleSubmit}>
 
-                <input
-                    type="password"
-                    name="senha"
-                    placeholder="Senha"
-                    onChange={handleChange}
-                    style={{ display: "block", marginBottom: 10, width: "100%" }}
-                />
+                    <input
+                        name="nome"
+                        placeholder="Nome"
+                        onChange={handleChange}
+                    />
 
-                <button type="submit">
-                    Cadastrar
-                </button>
+                    <input
+                        name="email"
+                        placeholder="Email"
+                        onChange={handleChange}
+                    />
 
-            </form>
+                    <input
+                        name="curso"
+                        placeholder="Curso"
+                        onChange={handleChange}
+                    />
 
-            {erro && <p style={{ color: "red" }}>{erro}</p>}
-            {sucesso && <p style={{ color: "green" }}>{sucesso}</p>}
-            Já possui conta?{" "}
-            <a href="/">
-                Fazer login
-            </a>
+                    <input
+                        name="departamento"
+                        placeholder="Departamento"
+                        onChange={handleChange}
+                    />
+
+                    <input
+                        type="password"
+                        name="senha"
+                        placeholder="Senha"
+                        onChange={handleChange}
+                    />
+
+                    <button type="submit">
+                        Cadastrar
+                    </button>
+
+                </form>
+
+                {erro && (
+                    <p style={{ color: "red" }}>
+                        {erro}
+                    </p>
+                )}
+
+                {sucesso && (
+                    <p style={{ color: "green" }}>
+                        {sucesso}
+                    </p>
+                )}
+
+                <div className="cadastro-link">
+
+                    Já possui uma conta?
+
+                    <br />
+
+                    <a href="/">
+                        Entrar
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
     );
 }

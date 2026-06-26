@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import axios from "axios";
+import "./../styles/login.css";
+import logo from "../assets/logo.png";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -28,36 +30,71 @@ export default function Login() {
     }
   };
 
-  return (
-    <div style={{ maxWidth: 300, margin: "100px auto" }}>
-      <h2>Login</h2>
+    return (
 
-      <form onSubmit={handleLogin}>
-        <input
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          style={{ display: "block", marginBottom: 10, width: "100%" }}
-        />
+        <div className="login-container">
 
-        <input
-          type="password"
-          placeholder="Senha"
-          value={senha}
-          onChange={(e) => setSenha(e.target.value)}
-          style={{ display: "block", marginBottom: 10, width: "100%" }}
-        />
+            <div className="login-card">
 
-        <button type="submit">Entrar</button>
+                <img
+                    src={logo}
+                    className="login-logo"
+                />
 
-        {erro && <p style={{ color: "red" }}>{erro}</p>}
-      </form>
-          <p>
-              Não possui conta?{" "}
-              <a href="/cadastro">
-                  Cadastre-se
-              </a>
-          </p>
-    </div>
-  );
+                <h2>Radar Financeiro</h2>
+
+                <p>Gerenciamento de Projetos de Pesquisa</p>
+
+                <form onSubmit={handleLogin}>
+
+                    <input
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+
+                    <input
+                        type="password"
+                        placeholder="Senha"
+                        value={senha}
+                        onChange={(e) => setSenha(e.target.value)}
+                    />
+
+                    <button type="submit">
+
+                        Entrar
+
+                    </button>
+
+                </form>
+
+                {erro &&
+
+                    <p style={{ color: "red" }}>
+
+                        {erro}
+
+                    </p>
+
+                }
+
+                <div className="login-link">
+
+                    Não possui conta?
+
+                    <br />
+
+                    <a href="/cadastro">
+
+                        Cadastre-se
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    );
 }
