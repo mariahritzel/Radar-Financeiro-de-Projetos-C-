@@ -28,6 +28,29 @@ export default function Cadastro() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        if (
+            !form.nome.trim() ||
+            !form.email.trim() ||
+            !form.curso.trim() ||
+            !form.departamento.trim() ||
+            !form.senha.trim()
+        ) {
+            setErro("Preencha todos os campos.");
+            return;
+        }
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailRegex.test(form.email)) {
+            setErro("Digite um e-mail válido.");
+            return;
+        }
+
+        if (form.senha.length < 6) {
+            setErro("A senha deve possuir pelo menos 6 caracteres.");
+            return;
+        }
+
         try {
             await axios.post(
                 "http://localhost:5279/api/Pesquisadores",
